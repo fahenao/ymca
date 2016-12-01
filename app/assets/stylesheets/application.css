@@ -14,5 +14,9 @@
  *= require_self
  */
 body {
-    background-image: url("construccion-ymca.gif");
+  background: url("construccion-ymca.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
